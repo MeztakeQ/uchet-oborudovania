@@ -1,0 +1,229 @@
+@import '_global';
+
+
+// шапка сайта //
+.header {
+    background-color: #4072af;
+}
+
+.header__inner {
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+.header__logo-text {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.nav__list {
+    display: flex;
+
+}
+
+
+.nav__list-link {
+    margin-left: 80px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    transition: .5s;
+
+    &:hover{
+        color: rgba(255, 255, 255, 0.507);
+    }
+}
+
+
+
+// page-home
+.page-home__inner {
+    text-align: center;
+
+}
+
+.page-home__inner-title {
+    font-size: 60px;
+    font-weight: 700;
+    color: #102d4d;
+}
+
+.page-home__inner-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #102d4d;
+    margin-bottom: 20px;
+}
+
+.page-home__inner-img {
+    width: 350px;
+}
+
+// konstruktor-otchetov
+
+.page-konstruktor-otchetov {}
+
+
+.page__top-center {
+    text-align: center;
+}
+
+.page__inner-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #102d4d;
+}
+
+.page__bottom {
+    padding: 100px 0;
+}
+
+.page__form {
+    width: 100%;
+}
+
+.page__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.page__item-text {
+    display: block;
+    margin-bottom: 10px;
+    color: #102d4d;
+}
+
+.page__item-select {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border: 0px;
+    border: 1px solid #000;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(114, 110, 110);
+    padding: 0 10px;
+}
+
+.page__item-input {
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding: 0 10px;
+    color: #000;
+}
+
+.input-date {
+    color: rgb(114, 110, 110);
+}
+
+.page__item-input::placeholder {
+    color: #000;
+}
+
+.page__items-btn {
+    background-color: orange;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    border: 1px solid #000;
+}
+
+
+// zapis-prikhoda //
+
+.page__panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+
+.page__left {}
+
+
+.page__left-btn {
+    padding: 5px 30px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .5s;
+
+    &:hover {
+        background-color: #7ba9da;
+    }
+}
+
+.btn-add {
+    background-color: green;
+}
+
+
+.page__right {
+}
+
+.page__func{
+    
+    display: flex;
+}
+
+.page__form {}
+
+.page__form-input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.page__form-btn {
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: .5s;
+
+    &:hover {
+        background-color: #7ba9da;
+    }
+}
+
+.page__left-btn i {
+    margin-right: 10px;
+}
+
+
+// table //
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+
+.table td {
+    border: 1px solid #000000;
+    padding: 5px;
+}
